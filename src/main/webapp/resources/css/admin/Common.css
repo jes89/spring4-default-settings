@@ -1,0 +1,137 @@
+﻿/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video, a, textarea, input, select
+ {vertical-align:middle; margin: 0; padding: 0; border: 0; color:#111; font-size:14px; line-height:160%; font-family:'Malgun Gothic', Dotum , '맑은 고딕', '돋움';  text-decoration:none; }
+html, body { height:100%;}
+strong,button {margin:0; padding:0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+ol, ul {list-style: none;}
+table {border-spacing:0; padding:0; }
+a {text-decoration:none;}
+blockquote, q {quotes: none;}
+html,body {width:100%; height:100%;}
+.hidden {display:none;}
+hr { display:none; height:0px; width:0px;}
+form { height:100%;}
+
+.blind { display:none; }
+.clear { clear:both;}
+.poR { position:relative;}
+.poA { position:absolute;}
+.tl { text-align:left}
+.tr { text-align:right}
+.tc { text-align:center;}
+.tline { text-decoration:underline}
+.tb { font-weight:bold;}
+.fl { float:left;}
+.fr { float:right}
+
+
+/*공통 : 상단 사용자 메뉴*/
+.UserMenu { background:#495164; height:30px; font-size:12px; color:#888; }
+.UserMenu .wrap { width:1200px; text-align:right;}
+.UserMenu .wrap{*zoom:1; } 
+.UserMenu .wrap:after {content:" "; display:block; clear:both;} 
+.UserMenu .wrap .user { float:right;}
+.UserMenu span { font-size:12px; color:#fff; float:left; padding-top:4px}
+.UserMenu input.logout {background:#383c45; border:1px solid #1b1f28; padding:2px 8px; font-size:12px; font-weight:bold; color:#a5aab0; cursor:pointer; float:left; margin-left:10px; }
+.UserMenu ul { float:right; margin-top:3px; margin-left:20px;}
+.UserMenu ul li { float:left}
+.UserMenu ul li a { font-size:12px; color:#a7acb2; font-weight:bold; margin-right:25px;}
+.UserMenu ul li a:hover { color:#fff;}
+
+/*공통 : 레이아웃*/
+.AdminCWrap { height:100%; min-height:100%; width:1250px;}
+.AdminCWrap{*zoom:1; } 
+.AdminCWrap:after {content:" "; display:block; clear:both;} 
+.SideWrap { height:100%; width:200px; background:#f7f9f8; border-right:1px solid #d5d5d5; float:left;}
+.CWrap { min-height:100%; width:1000px; min-width:1000px; *width:1000px; float:left; }
+
+
+/*margin : 5~35*/
+.mt5{margin-top:5px} .mt10{margin-top:10px} .mt15 { margin-top:15px} .mt20 { margin-top:20px} .mt25 { margin-top:25px} .mt30{margin-top:30px} .mt35{margin-top:35px} .mt40{margin-top:40px} .mt50{margin-top:50px}
+.mb5{margin-bottom:5px} .mb10{margin-bottom:10px} .mb15 { margin-bottom:15px} .mb20 { margin-bottom:20px} .mb25 { margin-bottom:25px} .mb30 { margin-bottom:30px} .mb35{margin-bottom:35px} .mb40{margin-bottom:40px}
+.ml5{margin-left:5px} .ml10{margin-left:10px} .ml15{margin-left:15px} .ml20{margin-left:20px} .ml25{margin-left:25px} .ml30{margin-left:30px} .ml35{margin-left:35px} .ml40{margin-left:40px}
+.mr5{margin-right:5px} .mr10{margin-right:10px} .mr15{margin-right:15px} .mr20{margin-right:20px} .mr25{margin-right:25px} .mr30{margin-right:30px} .mr35{margin-right:35px} .mr40{margin-right:40px}
+
+/*padding : 5~35*/
+.pt5{padding-top:5px} .pt10{padding-top:10px} .pt15 { padding-top:15px} .pt20 { padding-top:20px} .pt25 { padding-top:25px} .pt30{padding-top:30px} .pt35{padding-top:35px} .pt40{padding-top:40px} 
+.pb5{padding-bottom:5px} .pb10{padding-bottom:10px} .pb15 { padding-bottom:15px} .pb20 { padding-bottom:20px} .pb25 { padding-bottom:25px} .pb30 { padding-bottom:30px} .pb35{padding-bottom:35px} .pb40{padding-bottom:40px}
+.pl5{padding-left:5px} .pl10{padding-left:10px} .pl15{padding-left:15px} .pl20{padding-left:20px} .pl25{padding-left:25px} .pl30{padding-left:30px} .pl35{padding-left:35px} .pl40{padding-left:40px}
+.pr5{padding-right:5px} .pr10{padding-right:10px} .pr15{padding-right:15px} .pr20{padding-right:20px} .pr25{padding-right:25px} .pr30{padding-right:30px} .pr35{padding-right:35px} .pr40{padding-right:40px}
+
+/*font style*/
+.fRed01 { color:#e82850;}
+.fRed02 { color:#ed775b;}
+.fOrange01 { color:#ff6600;}
+.fBlue01 { color:#2479d8;}
+.fGB01 { color:#19aaa2;}
+.fGray01 { color:#b8b8b8;}
+.fGray02 { color:#666;}
+.fblack01 { color:#111;}
+.fPurple01 { color:#b049ff;}
+.fGreen01 { color:#169b16;}
+
+.font11 { font-size:11px}
+.font12 { font-size:12px}
+.font14 { font-size:14px}
+.font16 { font-size:16px}
+.font18 { font-size:18px}
+.font20 { font-size:20px}
+
+.lh20 { line-height:20px;}
+.lh30 { line-height:30px;}
+.lh40 { line-height:40px;}
+
+/*input*/
+input,select,button{vertical-align:middle}
+input[type=text],input[type=password]{height:23px; padding:0 2px;border:1px solid #d2d2d2; font-weight:bold; font-size:14px;color:#222;vertical-align:middle;-webkit-border-radius:1px;-webkit-appearance:none}
+
+input[type=text]:focus,input[type=password]:focus,select:focus,textarea:focus{border:1px solid #eccdbd;background:#fffbe8}
+input[type=file]{height:25px;border:1px solid #d2d2d2;background:#fff}
+input[type=radio]{*width:13px;*height:13px}
+select{height:25px; border:1px solid #d2d2d2;font-size:14px;color:#222;vertical-align:middle; padding-left:5px;}
+textarea{width:98.2%;padding:5px;border:1px solid #d2d2d2;font-size:13px;color:#222}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:none}
+
+
+input.searchBtn2{ width:75px; height:25px; background:url(/Images/Admin/btn_search2.gif) no-repeat top left; border:none; font-weight:bold; cursor:pointer; color:#222; text-align:left; padding-left:30px; }
+input.writeBtn3{ width:85px; height:25px; background:url(/Images/Admin/btn_write.gif) no-repeat top left; border:none; font-weight:bold; cursor:pointer; color:#222; text-align:left; padding-left:28px; }
+input.writeBtn6{ width:130px; height:25px; background:url(/Images/Admin/btn_write6.gif) no-repeat top left; border:none; font-weight:bold; cursor:pointer; color:#222; text-align:left; padding-left:28px; }
+input.confirmBtn2{ width:65px; height:25px; background:url(/Images/Admin/btn_confirm.gif) no-repeat top left; border:none; font-weight:bold; cursor:pointer; color:#222; text-align:left; padding-left:25px; }
+input.cancelBtn2{ width:65px; height:25px; background:url(/Images/Admin/btn_cancel.gif) no-repeat top left; border:none; font-weight:bold; cursor:pointer; color:#222; text-align:left; padding-left:25px; }
+input.listBtn2{ width:65px; height:25px; background:url(/Images/Admin/btn_list.gif) no-repeat top left; border:none; font-weight:bold; cursor:pointer; color:#222; text-align:left; padding-left:25px; }
+
+
+input.smodifyBtn2 {width:44px; height:28px; background:url(/Images/Admin/btn_sModi.gif) no-repeat top left; border:none; cursor:pointer; color:#222; text-align:left; padding-left:16px; font-size:11px; padding-bottom:8px;}
+input.sdelBtn2 {width:44px; height:28px; background:url(/Images/Admin/btn_sDel.gif) no-repeat top left; border:none; cursor:pointer; color:#222; text-align:left; padding-left:16px; font-size:11px; padding-bottom:8px;}
+input.sgrayBtn {  font-size:11px; padding:0 2px; background:#fbfbfb; border:1px solid #cccccc;}
+
+/*buttun : Gray normal*/
+input.mgrayBtn2 { width:40px; height:25px; background:url(/Images/Admin/btn_grayStyle01_2.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn3 { width:55px; height:25px; background:url(/Images/Admin/btn_grayStyle01_3.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn4 { width:70px; height:25px; background:url(/Images/Admin/btn_grayStyle01_4.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn5 { width:85px; height:25px; background:url(/Images/Admin/btn_grayStyle01_5.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn6 { width:100px; height:25px; background:url(/Images/Admin/btn_grayStyle01_6.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn7 { width:115px; height:25px; background:url(/Images/Admin/btn_grayStyle01_7.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn8 { width:130px; height:25px; background:url(/Images/Admin/btn_grayStyle01_8.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn9 { width:145px; height:25px; background:url(/Images/Admin/btn_grayStyle01_9.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn10 { width:160px; height:25px; background:url(/Images/Admin/btn_grayStyle01_10.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn11 { width:175px; height:25px; background:url(/Images/Admin/btn_grayStyle01_11.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn12 { width:190px; height:25px; background:url(/Images/Admin/btn_grayStyle01_12.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn13 { width:205px; height:25px; background:url(/Images/Admin/btn_grayStyle01_13.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn14 { width:220px; height:25px; background:url(/Images/Admin/btn_grayStyle01_14.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mgrayBtn15 { width:235px; height:25px; background:url(/Images/Admin/btn_grayStyle01_15.gif) no-repeat top left; border:none; cursor:pointer; color:#222; font-size:12px; text-align:center; font-weight:bold }
+input.mpinkBtn7 {width:167px; height:30px; background:url(/Images/Admin/btn_pinkStyle01_7.gif) no-repeat top left; border:none; cursor:pointer; color:#d15479; padding-right:20px; font-size:14px; text-align:center; font-weight:bold}
+input.mblueBtn6 {width:117px; height:30px; background:#fff; border:1px solid #5395ec; cursor:pointer; color:#1569d8; font-size:14px; text-align:center; font-weight:bold}
+input.mblueBtn7 {width:147px; height:30px; background:url(/Images/Admin/btn_blueStyle01_7.gif) no-repeat top left; border:none; cursor:pointer; color:#fff; padding-right:10px; font-size:12px; text-align:center; font-weight:bold}
+input.mblueBtn8 {width:167px; height:30px; background:#5395ec; border:none; cursor:pointer; color:#fff; font-size:14px; text-align:center; font-weight:bold}
+input.mblueBtn10 {width:177px; height:30px; background:url(/Images/Admin/btn_blueStyle01_10.gif) no-repeat top left; border:none; cursor:pointer; color:#fff; padding-right:10px; font-size:14px; text-align:center; font-weight:bold}
+input.mgreybigBtn {width:280px; height:50px; background:#555; border:none; cursor:pointer; color:#fff; font-size:20px; text-align:center; font-weight:bold}
+
+
+
+
+
