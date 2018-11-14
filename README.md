@@ -1,7 +1,7 @@
 # spring4-default-settings
 
 
-##config
+## config
 1. Spring Security
 2. jdbc 
 3. mybatis (using two information('earthcitizenclub' and 'jjan'))
